@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.element{
+  margin: 5px;
+  border: solid 1px black;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px){
+  .imagen{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+
+ul{
+  margin-left: 20px;
+}
